@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-color: rgb(147, 228, 228);
+}
+button {
+    min-width: 60px;
+    min-height: 26px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 3px;
+}
+input {
+    border-radius: 10px;
+    /* background-color: rgb(170, 219, 226); */
+    border: 2px solid black;
+    padding: 3px;
+    max-width: 100px;
+    min-width: 100px;
+
+}
+#btn-add {
+    background-color: rgb(53, 219, 53);
+}
+#btn-add:hover {
+    background-color: green;   
+}
+#btn-delete {
+    background-color: red;
+}
+#btn-delete:hover {
+    background-color: rgb(219, 53, 53);
+}
+#input-fields {
+    margin: 20px;
+}
