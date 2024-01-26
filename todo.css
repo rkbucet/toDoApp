@@ -1,6 +1,9 @@
 body {
-    text-align: center;
+    /* text-align: center;
+    align-items: center; */
     background-color: rgb(147, 228, 228);
+    align-content: center;
+    margin-left: 100px;
 }
 button {
     min-width: 60px;
@@ -12,25 +15,38 @@ button {
 }
 input {
     border-radius: 10px;
-    /* background-color: rgb(170, 219, 226); */
+    background-color: rgb(213, 233, 240);
     border: 2px solid black;
     padding: 3px;
-    max-width: 100px;
-    min-width: 100px;
+    /* max-width: 100px;
+    min-width: 100px; */
+} 
 
-}
+
 #btn-add {
     background-color: rgb(53, 219, 53);
+    padding: 5px;
+    border-radius: 10px;
 }
 #btn-add:hover {
-    background-color: green;   
+    background-color: green;
+    cursor: pointer;
 }
 #btn-delete {
     background-color: red;
+    padding: 5px;
+    border-radius: 10px;
 }
 #btn-delete:hover {
     background-color: rgb(219, 53, 53);
+    cursor: pointer;
 }
-#input-fields {
-    margin: 20px;
+.grid-container {
+    display: grid;
+    grid-template-columns: 150px 120px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items:  center;
+    text-align: center;
 }

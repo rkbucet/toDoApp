@@ -6,19 +6,14 @@
 </head>
 <body>
     <h1>To Do App</h1>
-    <div id="input-fields">
-        <input id="todo-input" type="text" placeholder="Enter Your To-do Here!" required>
-        <input id="todo-date" type="date" required>
-    </div>
     <div>
-        <button id="btn-add" onclick="addItem()">Add</button>
+        <div class="grid-container">
+            <input id="todo-input" type="text" placeholder="Enter Your To-do Here!" required>
+            <input id="todo-date" type="date" required>
+            <button id="btn-add" onclick="addItem()">Add</button>
+        </div>
+        <div class="containerElement grid-container"></div>
     </div>
-    
-    <div class="todo-items"></div>
-    
-
-
-
     <script src="todo.js"></script>
 </body>
 </html>
